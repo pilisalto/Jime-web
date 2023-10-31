@@ -201,11 +201,10 @@ header .right {
 }
 
 .logo__humanopuente{
-    width: 100px;
+    width: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
 }
 
 /* HERO */

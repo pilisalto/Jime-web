@@ -173,7 +173,7 @@ header.sticky{
 }
 
 .header__logo img{
-    width: 100px;
+    width: 140px;
 }
 
 .header__menu{
@@ -276,6 +276,11 @@ header .right {
     display: flex;
     gap: 2rem;
     margin-top: 6rem;
+}
+
+.image__about{
+    filter: drop-shadow(1px -11px 22px #c4c4c4);
+
 }
 
 .about__details-content{

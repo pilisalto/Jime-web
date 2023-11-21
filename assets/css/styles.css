@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 /* VARIABLES */
 :root {
     --primary-color: #c04ae2;
     --secondary-color: #111111;
-    --primary-font: 'Raleway', sans-serif;
-    --secondary-font: 'Montserrat', sans-serif;
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
 }
 
 /* RESET DEFAULT STYLES */
@@ -81,7 +81,7 @@ h6 {
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600;
     border: none;
     cursor: pointer;
     outline: none;
@@ -242,7 +242,7 @@ header .right {
 
 .features{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     gap: 2rem;
 }
 
@@ -258,6 +258,10 @@ header .right {
     margin-bottom: 1rem;
 }
 
+.icono_feature{
+    max-width: 60px;
+}
+
 .feature__title{
     font-size: 1.2rem;
     font-weight: 600;
@@ -271,7 +275,7 @@ header .right {
 .about__details{
     display: flex;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .about__details-content{
@@ -309,7 +313,27 @@ header .right {
     border: 1px solid #DF558F !important ;
 }
 
+.btn_card_1{
+    margin-top: 20px;
+    background-color : #72C9B2 !important;
+    color: #fff;
+}
+
+.btn_card_1:hover {
+    background-color: #fff !important;
+    color: #72C9B2;
+    border: 1px solid #72C9B2 !important ;
+}
+
 /* CONSULTORIAS */
+
+.title-heading {
+        font-size: 1.2rem;
+        max-width: 800px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+}
 
 .consultancys{
     display: flex;
@@ -333,7 +357,7 @@ header .right {
 }
 
 .consultancy__category{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1rem;
